@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+// import logoSagar from './logoSagar.svg'
+import logoSagar from './logo-white.svg'
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -35,6 +38,7 @@ export {
   backend,
   creator,
   mobile,
+  logoSagar,
   web,
   github,
   menu,

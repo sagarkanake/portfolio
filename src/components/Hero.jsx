@@ -19,12 +19,14 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Sagar</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            I am fullstack developer with around 2+ yrs experiannce in <br className='sm:block hidden' />
+            react and Node.js
           </p>
         </div>
       </div>
-      <div className="[&>div]:pt-[7rem] "> <ComputersCanvas /></div>
+      {/* <div className="[&>div]:pt-[15rem] ">  */}
+        <ComputersCanvas />
+        {/* </div> */}
      
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
